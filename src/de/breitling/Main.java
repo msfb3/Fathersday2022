@@ -25,6 +25,10 @@ public class Main {
         System.out.println("Gib den Vorname deines Vater oder Mutter ein.");
         String firstNameParent = scanner.nextLine();
 
+        if (namePerent == firstNameParent && childName == childNameEnterFromChild) {
+            System.out.println(namePerent + "Alles Gute zum Vatertag oder Muttertag.");
+        }
+
 
 
 
