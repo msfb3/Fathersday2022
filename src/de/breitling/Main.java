@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Hallo Vater oder Mutter. Bitte gib deinen Daten ein.");
         System.out.println("Guten Tag, Gib dein Name ein.");
         Scanner scanner = new Scanner(System.in);
-        String namePerent = scanner.nextLine();
+        String nameParent = scanner.nextLine();
 
         System.out.println("Gib dein Alter ein.");
         int age = scanner.nextInt();
@@ -25,9 +25,7 @@ public class Main {
         System.out.println("Gib den Vorname deines Vater oder Mutter ein.");
         String firstNameParent = scanner.nextLine();
 
-        if (namePerent == firstNameParent && childName == childNameEnterFromChild) {
-            System.out.println(namePerent + "Alles Gute zum Vatertag oder Muttertag.");
-        }
+        System.out.println(nameParent + " Alles Gute zum Vatertag oder Muttertag.");
 
 
 
