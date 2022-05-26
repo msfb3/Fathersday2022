@@ -8,13 +8,24 @@ public class Main {
         System.out.println("Hallo Vater oder Mutter. Bitte gib deinen Daten ein.");
         System.out.println("Guten Tag, Gib dein Name ein.");
         Scanner scanner = new Scanner(System.in);
-        String name = scanner.nextLine();
+        String namePerent = scanner.nextLine();
 
         System.out.println("Gib dein Alter ein.");
-        String age = scanner.nextLine();
+        int age = scanner.nextInt()
 
         System.out.println("Gib den Namen deiners Sohes oder deiner Tocher ein.");
         String childName = scanner.nextLine();
+
+        // Ask for Data From Child.
+        System.out.println("Hallo Du willst deinen Eltern eine Freude machen? Gib dein Daten ein.");
+        System.out.println("Gin deinen Name ein.");
+        String childNameEnterFromChild = scanner.nextLine();
+        System.out.println("Gib dein Alter ein");
+        int ageChild = scanner.nextInt();
+        System.out.println("Gib den Vorname deines Vater oder Mutter ein.");
+        String firstNameParent = scanner.nextLine();
+
+
 
 
 
