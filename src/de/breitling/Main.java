@@ -11,7 +11,7 @@ public class Main {
         String nameParent = scanner.nextLine();
 
         System.out.println("Gib dein Alter ein.");
-        int age = scanner.nextInt();
+        byte age = scanner.nextByte();
 
         System.out.println("Gib den Namen deiners Sohes oder deiner Tocher ein.");
         String childName = scanner.nextLine();
@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Gin deinen Name ein.");
         String childNameEnterFromChild = scanner.nextLine();
         System.out.println("Gib dein Alter ein");
-        int ageChild = scanner.nextInt();
+        byte ageChild = scanner.nextByte();
         System.out.println("Gib den Vorname deines Vater oder Mutter ein.");
         String firstNameParent = scanner.nextLine();
 
