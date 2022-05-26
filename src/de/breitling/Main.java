@@ -11,7 +11,7 @@ public class Main {
         String namePerent = scanner.nextLine();
 
         System.out.println("Gib dein Alter ein.");
-        int age = scanner.nextInt()
+        int age = scanner.nextInt();
 
         System.out.println("Gib den Namen deiners Sohes oder deiner Tocher ein.");
         String childName = scanner.nextLine();
