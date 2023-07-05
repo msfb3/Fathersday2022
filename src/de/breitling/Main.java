@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Ask for Data from Data from parent
+        // Ask for Data from parent
         System.out.println("Hallo Vater oder Mutter. Bitte gib deinen Daten ein.");
         System.out.println("Guten Tag, Gib dein Name ein.");
         Scanner scanner = new Scanner(System.in);
         String nameParent = scanner.nextLine();
-
+        // Ask for Data for Age
         System.out.println("Gib dein Alter ein.");
         byte age = scanner.nextByte();
 
